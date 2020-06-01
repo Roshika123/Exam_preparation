@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <Button
+        android:id="@+id/quizbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CS Quiz 1"
+        style="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_corner"
+        />
+
+    <Button
+        android:id="@+id/quizbtn2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CS Quiz 2"
+        style="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_corner"
+        />
+
+    <Button
+        android:id="@+id/quizbtn3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CS Quiz 3"
+        style="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_corner"
+        />
+
+    <Button
+        android:id="@+id/quizbtn4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CS Quiz 4"
+        style="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_corner"
+        />
+
+    <Button
+        android:id="@+id/quizbtn5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CS Quiz 5"
+        style="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_corner"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+    
+    
+    <style name="splash" parent="Theme.AppCompat.Light.DarkActionBar" />
+    
+    <style name="rightToast">
+
+        <item name="colorBackground">#FF8585</item>
+        <item name="textColor">#10CCBA</item>
+        <item name="iconLeft">@drawable/ic_done_all_black_24dp</item>
+        <item name="strokeColor">#000</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="length">LONG</item>
+        <item name="cornerRadius">15dp</item>
+        
+
+    </style>
+    
+    <style name="wrongToast">
+
+        <item name="colorBackground">#A69E90</item>
+        <item name="textColor">#ED3325</item>
+        <item name="iconLeft">@drawable/ic_close_black_24dp</item>
+        <item name="strokeColor">#000000</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="length">LONG</item>
+        <item name="cornerRadius">15dp</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Exam preparation</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">CS Exam Preparation</string>
+    <string name="nav_header_subtitle">CS Course in English</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="action_policy">Privacy Policy</string>
+    <string name="action_about">About Us</string>
+    <string name="action_contact">Contact Us</string>
+    <string name="action_rate">Rate Us</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="action_policy_title">Privacy Policy</string>
+
+    <string name="menu_home">Learn CS Course</string>
+    <string name="menu_study">CS Study</string>
+    <string name="menu_quiz">CS Quiz</string>
+    <string name="menu_checkupdate">Check Update</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_rate">Rate Us</string>
+    <string name="menu_other">Other App</string>
+
+    <string name="home_second">Home Second</string>
+</resources>

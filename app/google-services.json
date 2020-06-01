@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "551867416917",
+    "firebase_url": "https://exam-preparation-efa03.firebaseio.com",
+    "project_id": "exam-preparation-efa03",
+    "storage_bucket": "exam-preparation-efa03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551867416917:android:f64c10ad4097dc234f6fdc",
+        "android_client_info": {
+          "package_name": "com.example.exampreparation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551867416917-f3h01tnf89rq39u4jsintq6rikr5j9hp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exampreparation",
+            "certificate_hash": "070590a54c9e894a1e3548011748b34c9767d896"
+          }
+        },
+        {
+          "client_id": "551867416917-r6hehd8l4m51meontk93qi7019f7io4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhxt_pH33wQ6r8EozH27CGVgf2TOeaRsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551867416917-r6hehd8l4m51meontk93qi7019f7io4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
