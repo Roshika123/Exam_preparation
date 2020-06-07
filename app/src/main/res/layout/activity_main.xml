@@ -14,8 +14,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="488dp"
         android:text="Exam Preparation App"
+        android:fontFamily="@font/aclonica"
         android:textColor="@android:color/white"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
@@ -25,9 +26,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="450dp"
         android:text="Course on Computer Concept"
+        android:fontFamily="@font/aclonica"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:textSize="25sp"
+        android:textSize="20sp"
         />
     
     
@@ -46,9 +48,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="80dp"
         android:text="Computer Science"
+        android:fontFamily="@font/aclonica"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:textSize="35sp"
+        android:textSize="30sp"
         />
 
 

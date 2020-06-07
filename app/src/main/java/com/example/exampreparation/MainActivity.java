@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
                 try {
                     sleep ( 3500 );
-                    Intent intent = new Intent ( getApplicationContext (), HomeActivity.class );
+                    Intent intent = new Intent ( getApplicationContext (), LoginActivity.class );
                     startActivity ( intent );
                     finish ();
                    super.run ( );

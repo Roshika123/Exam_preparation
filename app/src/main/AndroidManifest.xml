@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".QuizActivity5"/>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".QuizActivity5" />
         <activity android:name=".QuizActivity4" />
         <activity android:name=".QuizActivity3" />
         <activity android:name=".QuizActivity2" />

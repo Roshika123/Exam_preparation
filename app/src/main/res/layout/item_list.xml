@@ -19,6 +19,7 @@
         android:layout_marginLeft="10dp"
         android:gravity="center"
         android:text="Chapter 1"
+        android:fontFamily="@font/aclonica"
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:textSize="16dp"/>
