@@ -32,7 +32,7 @@ public class RegisterActivity extends AppCompatActivity {
     Button mRegisterBtn;
     TextView mLoginBtn;
     FirebaseAuth fAuth;
-    String emailPattern = "[a-zA-Z0-9._-]+@[gmail]+\\\\.+[com]+";
+    String emailPattern = "[a-zA-Z0-9._-]+@[gmail]+\\.+[com]+";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +51,7 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                finish();
             }
         });
 
@@ -81,9 +82,10 @@ public class RegisterActivity extends AppCompatActivity {
                 } else {
 
                     if (mEmail.getText().toString().trim().matches(emailPattern)) {
-                        Toast.makeText(getApplicationContext(), "InValid Email Address", Toast.LENGTH_SHORT).show();
-                    } else {
                         Toast.makeText(getApplicationContext(), "Valid Email Address", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "InValid Email Address", Toast.LENGTH_SHORT).show();
+                        return;
                     }
 
                     if (TextUtils.isEmpty(password)) {

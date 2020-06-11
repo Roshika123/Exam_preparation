@@ -149,9 +149,11 @@ public class HomeActivity extends AppCompatActivity {
                         break;
 
                     case R.id.nav_logout:
+                        FirebaseAuth.getInstance().signOut();
                         Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         startActivity(intent);
+                        finish();
 
                         
 

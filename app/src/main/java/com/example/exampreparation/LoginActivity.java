@@ -42,6 +42,11 @@ public class LoginActivity extends AppCompatActivity {
         createAccountText = findViewById(R.id.createAccountText);
         forgotTextLink = findViewById(R.id.forgetPassword);
 
+        if (FirebaseAuth.getInstance().getCurrentUser() != null){
+            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+            finish();
+        }
+
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,6 +93,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
+                finish();
             }
         });
 

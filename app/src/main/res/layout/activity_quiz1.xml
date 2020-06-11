@@ -90,6 +90,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="Button"
+                android:textColor="#ffffff"
                 android:fontFamily="@font/aclonica"
                 android:background="@drawable/bounder_object"
                 android:backgroundTint="#888686"/>
@@ -101,6 +102,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="Button"
+                android:textColor="#ffffff"
                 android:fontFamily="@font/aclonica"
                 android:background="@drawable/bounder_object"
                 android:backgroundTint="#888686"/>
@@ -112,6 +114,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="Button"
+                android:textColor="#ffffff"
                 android:fontFamily="@font/aclonica"
                 android:background="@drawable/bounder_object"
                 android:backgroundTint="#888686"/>
@@ -124,6 +127,7 @@
                 android:layout_margin="8dp"
                 android:fontFamily="@font/aclonica"
                 android:text="Button"
+                android:textColor="#ffffff"
                 android:background="@drawable/bounder_object"
                 android:backgroundTint="#888686"/>
         </LinearLayout>
