@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.widget.Button;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 import com.muddzdev.styleabletoastlibrary.StyleableToast;
 
 import androidx.annotation.NonNull;
@@ -117,7 +118,7 @@ public class HomeActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder (
-                R.id.nav_home, R.id.nav_study,R.id.nav_quiz)
+                R.id.nav_home, R.id.nav_study,R.id.nav_quiz, R.id.nav_logout)
                 .setDrawerLayout ( drawer )
                 .build ( );
         NavController navController = Navigation.findNavController ( this, R.id.nav_host_fragment );
@@ -147,12 +148,12 @@ public class HomeActivity extends AppCompatActivity {
                         startActivity ( j );
                         break;
 
+                    case R.id.nav_logout:
+                        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        startActivity(intent);
 
-
-
-
-
-
+                        
 
                 }
                 drawer.closeDrawers ();
@@ -202,35 +203,7 @@ public class HomeActivity extends AppCompatActivity {
                 return true;
             }
 
-            else
-            if (id  == R.id.action_exit){
 
-                AlertDialog.Builder builder = new AlertDialog.Builder ( this );
-                builder.setMessage ( "Do you want to exit?" )
-                        .setCancelable ( false )
-                        .setPositiveButton ( "Yes", new DialogInterface.OnClickListener ( ) {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-
-                                HomeActivity.super.onBackPressed ();
-
-                            }
-                        } )
-                        .setNegativeButton ( "No", new DialogInterface.OnClickListener ( ) {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-
-                                dialogInterface.cancel ();
-
-                            }
-                        } );
-                AlertDialog alertDialog = builder.create ();
-                alertDialog.show ();
-
-
-
-                return true;
-            }
             else
 
 

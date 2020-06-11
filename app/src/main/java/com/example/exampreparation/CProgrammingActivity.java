@@ -19,8 +19,8 @@ public class CProgrammingActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_c_programming );
 
-        getSupportActionBar ().setDisplayShowHomeEnabled ( true );
-        getSupportActionBar ().setDisplayHomeAsUpEnabled ( true );
+       // getSupportActionBar ().setDisplayShowHomeEnabled ( true );
+        //getSupportActionBar ().setDisplayHomeAsUpEnabled ( true );
 
         webView = findViewById ( R.id.webView );
         webView.setWebViewClient ( new WebViewClient () );

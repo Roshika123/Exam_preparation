@@ -50,15 +50,15 @@ public class RegisterActivity extends AppCompatActivity {
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+                startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
             }
         });
 
 
-        if (fAuth.getCurrentUser() != null) {
-            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
-            finish();
-        }
+//        if (fAuth.getCurrentUser() != null) {
+//            startActivity(new Intent(RegisterActivity.this, HomeActivity.class));
+//            finish();
+//        }
 
 
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
@@ -81,9 +81,9 @@ public class RegisterActivity extends AppCompatActivity {
                 } else {
 
                     if (mEmail.getText().toString().trim().matches(emailPattern)) {
-                        Toast.makeText(getApplicationContext(), "Valid Email Address", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "InValid Email Address", Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(getApplicationContext(), "Invalid Email Address", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Valid Email Address", Toast.LENGTH_SHORT).show();
                     }
 
                     if (TextUtils.isEmpty(password)) {
