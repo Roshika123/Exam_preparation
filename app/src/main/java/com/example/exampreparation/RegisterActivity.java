@@ -32,6 +32,7 @@ public class RegisterActivity extends AppCompatActivity {
     Button mRegisterBtn;
     TextView mLoginBtn;
     FirebaseAuth fAuth;
+    ProgressBar progressBar;
     String emailPattern = "[a-zA-Z0-9._-]+@[gmail]+\\.+[com]+";
 
     @Override
@@ -44,6 +45,7 @@ public class RegisterActivity extends AppCompatActivity {
         mPassword = findViewById(R.id.Password);
         mRegisterBtn = findViewById(R.id.registerBtn);
         mLoginBtn = findViewById(R.id.createText);
+        progressBar = findViewById(R.id.progressBar);
 
         fAuth = FirebaseAuth.getInstance();
 
@@ -98,6 +100,8 @@ public class RegisterActivity extends AppCompatActivity {
                         return;
                     }
 
+                    progressBar.setVisibility(View.VISIBLE);
+
 
                     //register the user in firebase
                     fAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -108,6 +112,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                             } else {
                                 Toast.makeText(RegisterActivity.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                progressBar.setVisibility(View.GONE);
                             }
                         }
                     });
