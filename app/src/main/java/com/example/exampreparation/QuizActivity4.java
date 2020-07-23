@@ -48,11 +48,11 @@ public class QuizActivity4 extends AppCompatActivity {
 
         list = new ArrayList<> ( );
         //String optionA;
-        list.add ( new QuestionModel ( " Which of the following are components of Central Processing Unit (CPU) ?", "Arithmetic logic unit, Mouse", "Arithmetic logic unit, Control unit", "Arithmetic logic unit, Integrated Circuits", "Control Unit, Monitor", "Arithmetic logic unit, Control unit" ) );
-        list.add ( new QuestionModel ( " Which among following first generation of computers had ?", "Vacuum Tubes and Magnetic Drum", "Integrated Circuits", "Magnetic Tape and Transistors", "All of above", "Vaccum Tubes and Magnetic Drum" ) );
-        list.add ( new QuestionModel ( "Where is RAM located ?", "Expansion Board", "External Drive", "Mother Board", "All of above", "Mother Board" ) );
-        list.add ( new QuestionModel ( "If computer has more than one processor then it is known as ?", "Uniprocess", "Multiprocessor", "Multithreaded", "Multiprogramming", "Multiprocessor" ) );
-        list.add ( new QuestionModel ( "If computer provides database services to other, then it will be known as ?", "Web server", "Application server", "Database server", "FTP server", "Database server" ) );
+        list.add ( new QuestionModel ( " A computer program that converts assembly language to machine language is", "Compiler", "Interpreter", "Assembler", "Comparator", "Assembler" ) );
+        list.add ( new QuestionModel ( " The time required for the fetching and execution of one simple machine instruction is ", "Delay time", "CPU cycle", "Real time", "Seek time", "CPU cycle" ) );
+        list.add ( new QuestionModel ( "The time for which a piece of equipment operates is called", "Seek time", "Effective time", "Access time", "Real time", "Effective time" ) );
+        list.add ( new QuestionModel ( "Binary numbers need more places for counting because", "They are always big numbers", "Any no. of 0's can be added in front of them", "Binary base is small", "0's and l's have to be properly spaced apart", "Binary base is small" ) );
+        list.add ( new QuestionModel ( "Which access method is used for obtaining a record from a cassette tape ?", "Direct", "Sequential", "Random", "All of the above", "Sequential" ) );
 
         for (int i = 0; i < 4; i++) {
             options_layout.getChildAt ( i ).setOnClickListener ( new View.OnClickListener ( ) {

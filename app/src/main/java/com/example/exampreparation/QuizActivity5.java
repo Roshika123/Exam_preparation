@@ -48,11 +48,11 @@ public class QuizActivity5 extends AppCompatActivity {
 
         list = new ArrayList<> ( );
         //String optionA;
-        list.add ( new QuestionModel ( " Which of the following are components of Central Processing Unit (CPU) ?", "Arithmetic logic unit, Mouse", "Arithmetic logic unit, Control unit", "Arithmetic logic unit, Integrated Circuits", "Control Unit, Monitor", "Arithmetic logic unit, Control unit" ) );
-        list.add ( new QuestionModel ( " Which among following first generation of computers had ?", "Vacuum Tubes and Magnetic Drum", "Integrated Circuits", "Magnetic Tape and Transistors", "All of above", "Vaccum Tubes and Magnetic Drum" ) );
-        list.add ( new QuestionModel ( "Where is RAM located ?", "Expansion Board", "External Drive", "Mother Board", "All of above", "Mother Board" ) );
-        list.add ( new QuestionModel ( "If computer has more than one processor then it is known as ?", "Uniprocess", "Multiprocessor", "Multithreaded", "Multiprogramming", "Multiprocessor" ) );
-        list.add ( new QuestionModel ( "If computer provides database services to other, then it will be known as ?", "Web server", "Application server", "Database server", "FTP server", "Database server" ) );
+        list.add ( new QuestionModel ( " Any type of storage that is used for holding information between steps in its processing is ", "CPU", "Primary storage", "Intermediate storage", "Internal storage", "Intermediate storage" ) );
+        list.add ( new QuestionModel ( " A program component that allows structuring of a program in an unusual way is known as ", "Correlation", "Coroutine", "Diagonalization", "Quene", "Coroutine" ) );
+        list.add ( new QuestionModel ( "The section of the CPU that selects, interprets and sees to the execution of program instructions", "Memory", "Register unit", "Control unit", "ALU", "Control unit" ) );
+        list.add ( new QuestionModel ( "Which type of system puts the user into direct conversation with the computer through a keyboard ?", "Real time processing", "Interactive computer", "Batch processing", "Time sharing", "Interactive computer" ) );
+        list.add ( new QuestionModel ( " A single packet on a data link is known as", "Path", "Frame", "Block", "Group", "Frame" ) );
 
         for (int i = 0; i < 4; i++) {
             options_layout.getChildAt ( i ).setOnClickListener ( new View.OnClickListener ( ) {

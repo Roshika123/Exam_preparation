@@ -48,11 +48,11 @@ public class QuizActivity2 extends AppCompatActivity {
 
         list = new ArrayList<> ( );
         //String optionA;
-        list.add ( new QuestionModel ( " Which of the following are components of Central Processing Unit (CPU) ?", "Arithmetic logic unit, Mouse", "Arithmetic logic unit, Control unit", "Arithmetic logic unit, Integrated Circuits", "Control Unit, Monitor", "Arithmetic logic unit, Control unit" ) );
-        list.add ( new QuestionModel ( " Which among following first generation of computers had ?", "Vacuum Tubes and Magnetic Drum", "Integrated Circuits", "Magnetic Tape and Transistors", "All of above", "Vaccum Tubes and Magnetic Drum" ) );
-        list.add ( new QuestionModel ( "Where is RAM located ?", "Expansion Board", "External Drive", "Mother Board", "All of above", "Mother Board" ) );
-        list.add ( new QuestionModel ( "If computer has more than one processor then it is known as ?", "Uniprocess", "Multiprocessor", "Multithreaded", "Multiprogramming", "Multiprocessor" ) );
-        list.add ( new QuestionModel ( "If computer provides database services to other, then it will be known as ?", "Web server", "Application server", "Database server", "FTP server", "Database server" ) );
+        list.add ( new QuestionModel ( " Which of the following languages is more suited to a structured program?", "PL/1", "FORTRAN", "BASIC", "PASCAL", "PASCAL" ) );
+        list.add ( new QuestionModel ( " A computer assisted method for the recording and analyzing of existing or hypothetical system is ", "Data transmission", "Data flow", "Data capture", "Data processing", "Data flow" ) );
+        list.add ( new QuestionModel ( " The brain of any computer system is ", "ALU", "Memory", "CPU", "Control unit", "CPU" ) );
+        list.add ( new QuestionModel ( "What difference does the 5th generation computer have from other generation computer ?", "Technological advancement", "Scientific code", "Object Oriented Programming", "All of the above", "Technological advancement" ) );
+        list.add ( new QuestionModel ( "Which of the following computer language is used for artificial intelligence ?", "FORTRAN", "PROLOG", "C", "COBOL", "PROLOG" ) );
 
         for (int i = 0; i < 4; i++) {
             options_layout.getChildAt ( i ).setOnClickListener ( new View.OnClickListener ( ) {

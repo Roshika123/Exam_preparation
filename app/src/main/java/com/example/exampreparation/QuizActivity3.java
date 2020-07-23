@@ -48,11 +48,11 @@ public class QuizActivity3 extends AppCompatActivity {
 
         list = new ArrayList<> ( );
         //String optionA;
-        list.add ( new QuestionModel ( " Which of the following are components of Central Processing Unit (CPU) ?", "Arithmetic logic unit, Mouse", "Arithmetic logic unit, Control unit", "Arithmetic logic unit, Integrated Circuits", "Control Unit, Monitor", "Arithmetic logic unit, Control unit" ) );
-        list.add ( new QuestionModel ( " Which among following first generation of computers had ?", "Vacuum Tubes and Magnetic Drum", "Integrated Circuits", "Magnetic Tape and Transistors", "All of above", "Vaccum Tubes and Magnetic Drum" ) );
-        list.add ( new QuestionModel ( "Where is RAM located ?", "Expansion Board", "External Drive", "Mother Board", "All of above", "Mother Board" ) );
-        list.add ( new QuestionModel ( "If computer has more than one processor then it is known as ?", "Uniprocess", "Multiprocessor", "Multithreaded", "Multiprogramming", "Multiprocessor" ) );
-        list.add ( new QuestionModel ( "If computer provides database services to other, then it will be known as ?", "Web server", "Application server", "Database server", "FTP server", "Database server" ) );
+        list.add ( new QuestionModel ( " The tracks on a disk which can be accessed without repositioning the R/W heads is ", "Surface", "Cylinder", "Cluster", "All of the above", "Cylinder" ) );
+        list.add ( new QuestionModel ( " Which of the following is the 1's complement of 10 ?", "01", "110", "11", "10", "01" ) );
+        list.add ( new QuestionModel ( " A section of code to which control is transferred when a processor is interrupted is known as", "M", "SVC", "IP", "MDR", "M" ) );
+        list.add ( new QuestionModel ( "Which part interprets program instructions and initiate control operations  ?", "Input", "Storage unit", "Logic unit", "Control unit", "Control unit" ) );
+        list.add ( new QuestionModel ( "The binary system uses powers of", "2", "10", "8", "16", "2" ) );
 
         for (int i = 0; i < 4; i++) {
             options_layout.getChildAt ( i ).setOnClickListener ( new View.OnClickListener ( ) {
